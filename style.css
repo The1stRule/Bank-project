@@ -1,0 +1,453 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    border-bottom: 2px solid #f9f9f9;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+}
+
+header img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.nav-div {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-div a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.nav-div a:hover {
+    color: #a855f7;
+}
+
+.header-bt {
+    text-decoration: none;
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.header-bt:hover {
+    background-color: #8d41d5;
+}
+
+/* xshirad gamoyenebadi stili romelic sxva gverdebzec gamoiyeneba */
+
+.main-text {
+    font-size: 37px;
+    font-weight: 700;
+    color: rgb(55, 65, 81);
+    line-height: 40px;
+}
+
+.lorem {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+.sections-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a855f7;
+}
+
+.grid-p {
+    font-size: 19px;
+    font-weight: 700;
+    color: #a855f7;
+}
+
+/* main-section */
+
+section {
+    width: 100%;
+    padding-left: 165px;
+}
+
+#main-section {
+    background-color: #f0e3ff;
+    padding-top: 270px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#main-section .main-text {
+    width: 728px;
+}
+
+#main-section .lorem {
+    width: 750px;
+    font-size: 14px;
+}
+
+.section-bt {
+    text-decoration: none;
+    padding: 11px 17px;
+    font-size: 13px;
+    color: white;
+    background-color: #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.section-bt:hover {
+    background-color: #8d41d5;
+}
+
+/* gamosasworebelia */
+
+.fb-svg {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: #a855f7;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.button-svg {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* features-section (2nd) */
+
+#features-section {
+    padding: 70px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+#section-2div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#section-2div .main-text {
+    width: 509px;
+}
+
+/* grid */
+
+#grid-div {
+    width: 80%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+}
+
+.child {
+    padding: 32px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    transition: 0.25s;
+}
+
+.child:hover {
+    background-color: #f9f2ff;
+    border-radius: 15px;
+}
+
+#grid-div svg {
+    width: 50px;
+    height: 50px;
+}
+
+.child .lorem {
+    width: 271px;
+}
+
+.grid-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* how-it-section (3d) */
+
+#how-it-section {
+    background-color: #f0e3ff;
+    display: flex;
+    gap: 20px;
+}
+
+#image-1 img {
+    width: 500px;
+}
+
+#section-3main {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#section-3div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-3div .main-text {
+    width: 450px;
+}
+
+#section-3main .lorem {
+    width: 700px;
+}
+
+/* instructions-div */
+
+#instructions {
+    display: flex;
+    gap: 50px;
+}
+
+.inst-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inst-div svg  {
+    width: 45px;
+    height: 45px;
+}
+
+.inst-p {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(55, 65, 81);
+}
+
+#instructions .lorem {
+    width: 170px;
+}
+
+/* agents (4th) */
+
+#agents {
+    padding: 70px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#section-4main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#section-4div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-4div .main-text {
+    width: 450px;
+}
+
+#section-4main .lorem {
+    width: 586px;
+}
+
+#image-2 {
+    width: 40%;
+}
+
+#image-2 img {
+    width: 100%;
+}
+
+/* download-section (5th) */
+
+#download-section {
+    background-color: #f0e3ff;
+    padding: 70px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#section-5main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#section-5div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-5div .main-text {
+    width: 550px;
+}
+
+#section-5main .lorem {
+    width: 586px;
+}
+
+#download-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#download-buttons a {
+    text-decoration: none;
+    padding: 8px 10px;
+    font-weight: 500;
+    color: white;
+    background-color: #8d41d5;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    transition: 0.25s;
+}
+
+/* #download-buttons a:hover {
+
+} */
+
+#download-buttons svg {
+    width: 30px;
+    height: 30px;
+}
+
+#image-3 {
+    width: 40%;
+}
+
+#image-3 img {
+    width: 100%;
+}
+
+#Why-us {
+    padding: 70px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#section-6main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#section-6div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-6div .main-text {
+    width: 780px;
+}
+
+#section-6main .lorem {
+    width: 780px;
+}
+
+#image-4 {
+    width: 27%;
+}
+
+#image-4 img {
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    padding-top: 85px;
+    height: 340px;
+    /* background-color: #f0e3ff; */
+    background-color: #faf5ff;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-div img {
+    width: 70px;
+}
+
+.footer-div .lorem {
+    width: 380px;
+}
+
+footer .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-info p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}

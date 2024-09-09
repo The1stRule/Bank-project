@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    border-bottom: 2px solid #f9f9f9;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+}
+
+header img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.nav-div {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-div a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.nav-div a:hover {
+    color: #a855f7;
+}
+
+.header-bt {
+    text-decoration: none;
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.header-bt:hover {
+    background-color: #8d41d5;
+}
+
+/* xshirad gamoyenebadi stili romelic sxva gverdebzec gamoiyeneba */
+
+.main-text {
+    font-size: 37px;
+    font-weight: 700;
+    color: rgb(55, 65, 81);
+    line-height: 40px;
+}
+
+.lorem {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+.sections-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a855f7;
+}
+
+.grid-p {
+    font-size: 19px;
+    font-weight: 700;
+    color: #a855f7;
+}
+
+#main-content {
+    padding-top: 100px;
+    background-color: #f0e3ff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#section-1div {
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* img-p */
+
+#img-p {
+    width: 100%;
+    padding: 0px 100px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+#p-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#p-div .main-text {
+    width: 600px;
+}
+
+#p-div .lorem {
+    width: 605px;
+}
+
+#image-1 {
+    width: 27%;
+}
+
+#image-1 img {
+    width: 100%;
+}
+
+/* grid */
+
+#grid-div {
+    width: 600px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 25px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.child .grid-p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(55, 65, 81);
+}
+
+.svg-p {
+    width: 37px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #a855f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* agents (4th) */
+
+#agents {
+    padding: 70px 0px 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#section-4main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#section-4div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section-4div .main-text {
+    width: 450px;
+}
+
+#section-4main .lorem {
+    width: 586px;
+}
+
+#image-2 {
+    width: 40%;
+}
+
+#image-2 img {
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    padding-top: 85px;
+    height: 340px;
+    /* background-color: #f0e3ff; */
+    background-color: #faf5ff;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-div img {
+    width: 70px;
+}
+
+.footer-div .lorem {
+    width: 380px;
+}
+
+footer .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-info p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
